@@ -55,7 +55,7 @@
       (gruber-darker-red+1     "#ff4f58")
       (gruber-darker-green     "#73c936")
       (gruber-darker-yellow    "#ffdd33")
-      (gruber-darker-gray      "#cc8c3c")
+      (gruber-darker-gray      "#8b8b83")
       (gruber-darker-quartz    "#95a99f")
       (gruber-darker-niagara-2 "#303540")
       (gruber-darker-niagara-1 "#565f73")
