@@ -55,7 +55,7 @@
       (gruber-darker-red+1     "#ff4f58")
       (gruber-darker-green     "#73c936")
       (gruber-darker-yellow    "#ffdd33")
-      (gruber-darker-brown     "#cc8c3c")
+      (gruber-darker-gray      "#cc8c3c")
       (gruber-darker-quartz    "#95a99f")
       (gruber-darker-niagara-2 "#303540")
       (gruber-darker-niagara-1 "#565f73")
@@ -116,7 +116,7 @@
    ;; Compilation
    `(compilation-info ((t ,(list :foreground gruber-darker-green
                                  :inherit 'unspecified))))
-   `(compilation-warning ((t ,(list :foreground gruber-darker-brown
+   `(compilation-warning ((t ,(list :foreground gruber-darker-gray
                                     :bold t
                                     :inherit 'unspecified))))
    `(compilation-error ((t (:foreground ,gruber-darker-red+1))))
@@ -173,8 +173,8 @@
 
    ;; Font Lock
    `(font-lock-builtin-face ((t (:foreground ,gruber-darker-yellow))))
-   `(font-lock-comment-face ((t (:foreground ,gruber-darker-brown))))
-   `(font-lock-comment-delimiter-face ((t (:foreground ,gruber-darker-brown))))
+   `(font-lock-comment-face ((t (:foreground ,gruber-darker-gray))))
+   `(font-lock-comment-delimiter-face ((t (:foreground ,gruber-darker-gray))))
    `(font-lock-constant-face ((t (:foreground ,gruber-darker-quartz))))
    `(font-lock-doc-face ((t (:foreground ,gruber-darker-green))))
    `(font-lock-doc-string-face ((t (:foreground ,gruber-darker-green))))
@@ -241,7 +241,7 @@
 
    ;; Ido
    `(ido-first-match ((t (:foreground ,gruber-darker-yellow :bold nil))))
-   `(ido-only-match ((t (:foreground ,gruber-darker-brown :weight bold))))
+   `(ido-only-match ((t (:foreground ,gruber-darker-gray :weight bold))))
    `(ido-subdir ((t (:foreground ,gruber-darker-niagara :weight bold))))
 
    ;; Info
@@ -276,7 +276,7 @@
    `(magit-diff-hunk-header ((t (:background ,gruber-darker-bg+2))))
    `(magit-diff-file-header ((t (:background ,gruber-darker-bg+4))))
    `(magit-log-sha1 ((t (:foreground ,gruber-darker-red+1))))
-   `(magit-log-author ((t (:foreground ,gruber-darker-brown))))
+   `(magit-log-author ((t (:foreground ,gruber-darker-gray))))
    `(magit-log-head-label-remote ((t ,(list :foreground gruber-darker-green
                                             :background gruber-darker-bg+1))))
    `(magit-log-head-label-local ((t ,(list :foreground gruber-darker-niagara
@@ -365,8 +365,8 @@
                                        :foreground gruber-darker-red))))
    `(whitespace-space-after-tab ((t ,(list :background gruber-darker-yellow
                                            :foreground gruber-darker-yellow))))
-   `(whitespace-space-before-tab ((t ,(list :background gruber-darker-brown
-                                            :foreground gruber-darker-brown))))
+   `(whitespace-space-before-tab ((t ,(list :background gruber-darker-gray
+                                            :foreground gruber-darker-gray))))
 
    ;; tab-bar
    `(tab-bar ((t (:background ,gruber-darker-bg+1 :foreground ,gruber-darker-bg+4))))
@@ -385,8 +385,8 @@
 
    ;;;;; company-mode
    `(company-tooltip ((t (:foreground ,gruber-darker-fg :background ,gruber-darker-bg+1))))
-   `(company-tooltip-annotation ((t (:foreground ,gruber-darker-brown :background ,gruber-darker-bg+1))))
-   `(company-tooltip-annotation-selection ((t (:foreground ,gruber-darker-brown :background ,gruber-darker-bg-1))))
+   `(company-tooltip-annotation ((t (:foreground ,gruber-darker-gray :background ,gruber-darker-bg+1))))
+   `(company-tooltip-annotation-selection ((t (:foreground ,gruber-darker-gray :background ,gruber-darker-bg-1))))
    `(company-tooltip-selection ((t (:foreground ,gruber-darker-fg :background ,gruber-darker-bg-1))))
    `(company-tooltip-mouse ((t (:background ,gruber-darker-bg-1))))
    `(company-tooltip-common ((t (:foreground ,gruber-darker-green))))
