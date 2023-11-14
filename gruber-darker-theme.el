@@ -1,5 +1,6 @@
 ;;; gruber-darker-theme.el --- Gruber Darker color theme for Emacs 24.
 
+;; Copyright (C) 2023      Błaźej Niewiadomski
 ;; Copyright (C) 2013-2016 Alexey Kutepov a.k.a rexim
 ;; Copyright (C) 2009-2010 Jason R. Blevins
 
@@ -295,11 +296,11 @@
    `(message-header-name ((t (:foreground ,gruber-darker-green))))
 
    ;; Mode Line
-   `(mode-line ((t ,(list :background gruber-darker-bg+1
+   `(mode-line ((t ,(list :background gruber-darker-bg
                           :foreground gruber-darker-white))))
-   `(mode-line-buffer-id ((t ,(list :background gruber-darker-bg+1
+   `(mode-line-buffer-id ((t ,(list :background gruber-darker-bg
                                     :foreground gruber-darker-white))))
-   `(mode-line-inactive ((t ,(list :background gruber-darker-bg+1
+   `(mode-line-inactive ((t ,(list :background gruber-darker-bg
                                    :foreground gruber-darker-quartz))))
 
    ;; Neo Dir
