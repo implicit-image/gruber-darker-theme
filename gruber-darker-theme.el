@@ -242,8 +242,8 @@
    ;; Org
    '(org-block ((t ,(list :background gruber-darker-bg+1
                           :foreground gruber-darker-fg+1))))
-   '(org-block-begin-line ((t (:background ,gruber-darker-bg+2))))
-   '(org-block-end-line ((t (:background ,gruber-darker-bg+2))))
+   '(org-block-begin-line ((t (list :background gruber-darker-bg+2))))
+   '(org-block-end-line ((t (list :background gruber-darker-bg+2))))
    ;; Ido
    `(ido-first-match ((t (:foreground ,gruber-darker-yellow :bold nil))))
    `(ido-only-match ((t (:foreground ,gruber-darker-gray :weight bold))))
