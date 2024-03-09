@@ -240,8 +240,8 @@
                                    :box (list :line-width -1
                                               :style 'released-button)))))
    ;; Org
-   '(org-block ((t ,(list :background ,gruber-darker-bg+1
-                          :foreground ,gruber-darker-fg+1))))
+   '(org-block ((t ,(list :background gruber-darker-bg+1
+                          :foreground gruber-darker-fg+1))))
    '(org-block-begin-line ((t (:background ,gruber-darker-bg+2))))
    '(org-block-end-line ((t (:background ,gruber-darker-bg+2))))
    ;; Ido
