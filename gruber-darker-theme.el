@@ -239,7 +239,11 @@
                                    :background gruber-darker-bg
                                    :box (list :line-width -1
                                               :style 'released-button)))))
-
+   ;; Org
+   '(org-block ((t ,(list :background ,gruber-darker-bg+1
+                          :foreground ,gruber-darker-fg+1))))
+   '(org-block-begin-line ((t (:background ,gruber-darker-bg+2))))
+   '(org-block-end-line ((t (:background ,gruber-darker-bg+2))))
    ;; Ido
    `(ido-first-match ((t (:foreground ,gruber-darker-yellow :bold nil))))
    `(ido-only-match ((t (:foreground ,gruber-darker-gray :weight bold))))
@@ -349,7 +353,7 @@
 
    ;; Whitespace
    `(whitespace-space ((t ,(list :background gruber-darker-bg
-                                 :foreground gruber-darker-bg+1))))
+                                 :foreground gruber-darker-bg+4))))
    `(whitespace-tab ((t ,(list :background gruber-darker-bg
                                :foreground gruber-darker-bg+1))))
    `(whitespace-hspace ((t ,(list :background gruber-darker-bg
@@ -362,8 +366,8 @@
                                     :foreground gruber-darker-red))))
    `(whitespace-empty ((t ,(list :background gruber-darker-yellow
                                  :foreground gruber-darker-yellow))))
-   `(whitespace-indentation ((t ,(list :background gruber-darker-yellow
-                                       :foreground gruber-darker-red))))
+   `(whitespace-indentation ((t ,(list :background gruber-darker-bg
+                                       :foreground gruber-darker-bg+4))))
    `(whitespace-space-after-tab ((t ,(list :background gruber-darker-yellow
                                            :foreground gruber-darker-yellow))))
    `(whitespace-space-before-tab ((t ,(list :background gruber-darker-gray
