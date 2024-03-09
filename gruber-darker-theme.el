@@ -353,7 +353,7 @@
 
    ;; Whitespace
    `(whitespace-space ((t ,(list :background gruber-darker-bg
-                                 :foreground gruber-darker-bg+4))))
+                                 :foreground gruber-darker-gray))))
    `(whitespace-tab ((t ,(list :background gruber-darker-bg
                                :foreground gruber-darker-bg+1))))
    `(whitespace-hspace ((t ,(list :background gruber-darker-bg
